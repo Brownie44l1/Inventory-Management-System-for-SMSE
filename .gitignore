@@ -1,0 +1,32 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore build output
+/dist/
+/build/
+/output.css
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore compiled files
+*.exe
+*.dll
+*.class
+
+# Ignore coverage reports
+coverage/

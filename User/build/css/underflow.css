@@ -1,0 +1,35 @@
+
+
+.sidebar {
+    transition: transform 0.3s ease, visibility 0.3s ease;
+    width: 240px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+  }
+  .main-content {
+    transition: margin-left 0.3s ease, width 0.3s ease;
+    margin-left: 240px;
+    width: calc(100% - 240px);
+  }
+  .sidebar-hidden {
+    transform: translateX(-100%);
+    visibility: hidden;
+  }
+  .main-content-expanded {
+    margin-left: 0;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .sidebar:not(.force-show) {
+      transform: translateX(-100%);
+      visibility: hidden;
+    }
+    .main-content {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+

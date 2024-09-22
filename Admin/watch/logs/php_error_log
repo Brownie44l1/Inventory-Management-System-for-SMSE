@@ -1,0 +1,136 @@
+[21-Sep-2024 09:36:56 Europe/Berlin] [2024-09-21 09:36:56] Script started. Request method: GET
+[21-Sep-2024 09:36:56 Europe/Berlin] [2024-09-21 09:36:56] Processing GET request
+[21-Sep-2024 09:36:56 Europe/Berlin] [2024-09-21 09:36:56] Username: admin, Email: admin@gmail.com, Is Admin: Yes
+[21-Sep-2024 09:36:56 Europe/Berlin] [2024-09-21 09:36:56] Using table: admin_login
+[21-Sep-2024 09:36:56 Europe/Berlin] [2024-09-21 09:36:56] Query executed. Rows returned: 1
+[21-Sep-2024 09:36:56 Europe/Berlin] [2024-09-21 09:36:56] Invalid password for user: admin
+[21-Sep-2024 09:36:56 Europe/Berlin] [2024-09-21 09:36:56] Error set in session. Redirecting to login.php
+[21-Sep-2024 09:38:01 Europe/Berlin] [2024-09-21 09:38:01] Script started. Request method: POST
+[21-Sep-2024 09:38:01 Europe/Berlin] [2024-09-21 09:38:01] Processing POST request
+[21-Sep-2024 09:38:01 Europe/Berlin] [2024-09-21 09:38:01] Username: admin, Email: admin@gmail.com, Is Admin: Yes
+[21-Sep-2024 09:38:01 Europe/Berlin] [2024-09-21 09:38:01] Using table: admin_login
+[21-Sep-2024 09:38:01 Europe/Berlin] [2024-09-21 09:38:01] Query executed. Rows returned: 1
+[21-Sep-2024 09:38:01 Europe/Berlin] [2024-09-21 09:38:01] Invalid password for user: admin
+[21-Sep-2024 09:38:01 Europe/Berlin] [2024-09-21 09:38:01] Error set in session. Redirecting to login.php
+
+New hashed password: $2y$10$GqAVLRfr1nYDUfQt73tBd.t/E3N3Ojfcuiopp2Nqr.IeEBSIPP1KG
+
+[21-Sep-2024 09:42:23 Europe/Berlin] [2024-09-21 09:42:23] Script started. Request method: POST
+[21-Sep-2024 09:42:23 Europe/Berlin] [2024-09-21 09:42:23] Processing POST request
+[21-Sep-2024 09:42:23 Europe/Berlin] [2024-09-21 09:42:23] Username: admin, Email: admin@gmail.com, Is Admin: Yes
+[21-Sep-2024 09:42:23 Europe/Berlin] [2024-09-21 09:42:23] Using table: admin_login
+[21-Sep-2024 09:42:23 Europe/Berlin] [2024-09-21 09:42:23] Query executed. Rows returned: 1
+[21-Sep-2024 09:42:23 Europe/Berlin] [2024-09-21 09:42:23] Stored hashed password: $2y$10$WlLv1fBAGG1RcpFgO84JIOgx.fQp6rcD9Y1dbZq5rPVj.yHmNzEeK
+[21-Sep-2024 09:42:23 Europe/Berlin] [2024-09-21 09:42:23] Provided password: admin_password123
+[21-Sep-2024 09:42:23 Europe/Berlin] [2024-09-21 09:42:23] Password verification failed
+[21-Sep-2024 09:42:23 Europe/Berlin] [2024-09-21 09:42:23] password_verify() result: false
+[21-Sep-2024 09:42:23 Europe/Berlin] [2024-09-21 09:42:23] Error set in session. Redirecting to login.php
+[21-Sep-2024 09:47:27 Europe/Berlin] [2024-09-21 09:47:27] Script started. Request method: POST
+[21-Sep-2024 09:47:27 Europe/Berlin] [2024-09-21 09:47:27] Processing POST request
+[21-Sep-2024 09:47:27 Europe/Berlin] [2024-09-21 09:47:27] Username: admin, Email: admin@gmail.com, Is Admin: Yes
+[21-Sep-2024 09:47:27 Europe/Berlin] [2024-09-21 09:47:27] Using table: admin_login
+[21-Sep-2024 09:47:27 Europe/Berlin] [2024-09-21 09:47:27] Query executed. Rows returned: 1
+[21-Sep-2024 09:47:27 Europe/Berlin] [2024-09-21 09:47:27] Stored hashed password: $2y$10$GqAVLRfr1nYDUfQt73tBd.t/E3N3Ojfcuiopp2Nqr.IeEBSIPP1KG
+[21-Sep-2024 09:47:27 Europe/Berlin] [2024-09-21 09:47:27] Provided password: admin_password123
+[21-Sep-2024 09:47:27 Europe/Berlin] [2024-09-21 09:47:27] Password verified successfully
+[21-Sep-2024 09:47:27 Europe/Berlin] [2024-09-21 09:47:27] Session variables set. Attempting to redirect...
+[21-Sep-2024 09:47:27 Europe/Berlin] [2024-09-21 09:47:27] Redirecting admin to ./dashboard.php
+[21-Sep-2024 10:16:43 Europe/Berlin] PHP Warning:  Undefined array key "gender" in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\settings.php on line 20
+[21-Sep-2024 10:44:46 Europe/Berlin] PHP Warning:  Undefined array key "gender" in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\settings.php on line 20
+[21-Sep-2024 11:22:23 Europe/Berlin] PHP Warning:  Undefined variable $attribute_id in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\group.php on line 34
+[21-Sep-2024 11:22:23 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\group.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\group.php(35): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\group.php on line 35
+[21-Sep-2024 11:39:31 Europe/Berlin] PHP Warning:  Undefined variable $attribute_id in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 34
+[21-Sep-2024 11:39:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php(35): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 35
+[21-Sep-2024 11:39:43 Europe/Berlin] PHP Warning:  Undefined variable $attribute_id in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 34
+[21-Sep-2024 11:39:43 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php(35): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 35
+[21-Sep-2024 11:40:32 Europe/Berlin] PHP Warning:  Undefined variable $attribute_id in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 34
+[21-Sep-2024 11:40:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php(35): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 35
+[21-Sep-2024 11:42:14 Europe/Berlin] PHP Warning:  Undefined variable $attribute_id in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 34
+[21-Sep-2024 11:42:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php(35): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 35
+[21-Sep-2024 11:50:57 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'username'@'localhost' (using password: YES) in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user-create.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user-create.php(103): mysqli->__construct('localhost', 'username', Object(SensitiveParameterValue), 'database')
+#1 {main}
+  thrown in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user-create.php on line 103
+[21-Sep-2024 11:51:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'username'@'localhost' (using password: YES) in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user-create.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user-create.php(103): mysqli->__construct('localhost', 'username', Object(SensitiveParameterValue), 'database')
+#1 {main}
+  thrown in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user-create.php on line 103
+[21-Sep-2024 11:53:05 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'firstname' in 'field list' in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user-create.php:104
+Stack trace:
+#0 C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user-create.php(104): mysqli->prepare('INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user-create.php on line 104
+[21-Sep-2024 11:55:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\build\include\sidebar.php:1) in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user-create.php on line 110
+[21-Sep-2024 11:56:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'user@gmail.com' for key 'email' in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user-create.php:23
+Stack trace:
+#0 C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user-create.php(23): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user-create.php on line 23
+[21-Sep-2024 11:59:48 Europe/Berlin] PHP Warning:  Undefined variable $attribute_id in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 34
+[21-Sep-2024 11:59:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php(35): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 35
+[21-Sep-2024 12:00:58 Europe/Berlin] PHP Warning:  Undefined variable $attribute_id in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 34
+[21-Sep-2024 12:00:58 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php:35
+Stack trace:
+#0 C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php(35): mysqli->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 35
+[21-Sep-2024 12:05:43 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'gp.group_id' in 'on clause' in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php:46
+Stack trace:
+#0 C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php(46): mysqli->query('SELECT ul.usern...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 46
+[21-Sep-2024 12:05:56 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'gp.group_id' in 'on clause' in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php:46
+Stack trace:
+#0 C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php(46): mysqli->query('SELECT ul.usern...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 46
+[21-Sep-2024 12:12:06 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 82
+[21-Sep-2024 12:12:06 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 86
+[21-Sep-2024 12:12:06 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 82
+[21-Sep-2024 12:12:06 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 86[21-Sep-2024 23:14:55 Europe/Berlin] PHP Warning:  error_log(../logs/error.log): Failed to open stream: No such file or directory in C:\xampp\htdocs\Php_Project\Integrated Web-based Management System for SMSE\Admin\watch\user.php on line 6
+[21-Sep-2024 23:17:58 Europe/Berlin] [2024-09-21 23:17:58] Script started. Request method: POST
+[21-Sep-2024 23:17:58 Europe/Berlin] [2024-09-21 23:17:58] Processing POST request
+[21-Sep-2024 23:17:58 Europe/Berlin] [2024-09-21 23:17:58] Username: user, Email: user@gmail.com, Is Admin: No
+[21-Sep-2024 23:17:58 Europe/Berlin] [2024-09-21 23:17:58] Using table: user_login
+[21-Sep-2024 23:17:58 Europe/Berlin] [2024-09-21 23:17:58] Query executed. Rows returned: 1
+[21-Sep-2024 23:17:58 Europe/Berlin] [2024-09-21 23:17:58] Stored hashed password: $2y$10$wTh.8KSbYfSTfoIEY6q9x.Zu897l4vTfNlvp92V.lVrrjreNtmC2i
+[21-Sep-2024 23:17:58 Europe/Berlin] [2024-09-21 23:17:58] Provided password: user_password123
+[21-Sep-2024 23:17:58 Europe/Berlin] [2024-09-21 23:17:58] Password verified successfully
+[21-Sep-2024 23:17:58 Europe/Berlin] [2024-09-21 23:17:58] Session variables set. Attempting to redirect...
+[21-Sep-2024 23:17:58 Europe/Berlin] [2024-09-21 23:17:58] Redirecting user to ../../../User/dashboard.php
+[21-Sep-2024 23:18:37 Europe/Berlin] [2024-09-21 23:18:37] Script started. Request method: POST
+[21-Sep-2024 23:18:37 Europe/Berlin] [2024-09-21 23:18:37] Processing POST request
+[21-Sep-2024 23:18:37 Europe/Berlin] [2024-09-21 23:18:37] Username: admin, Email: admin@gmail.com, Is Admin: Yes
+[21-Sep-2024 23:18:37 Europe/Berlin] [2024-09-21 23:18:37] Using table: admin_login
+[21-Sep-2024 23:18:37 Europe/Berlin] [2024-09-21 23:18:37] Query executed. Rows returned: 1
+[21-Sep-2024 23:18:37 Europe/Berlin] [2024-09-21 23:18:37] Stored hashed password: $2y$10$GqAVLRfr1nYDUfQt73tBd.t/E3N3Ojfcuiopp2Nqr.IeEBSIPP1KG
+[21-Sep-2024 23:18:37 Europe/Berlin] [2024-09-21 23:18:37] Provided password: admin_password123
+[21-Sep-2024 23:18:37 Europe/Berlin] [2024-09-21 23:18:37] Password verified successfully
+[21-Sep-2024 23:18:37 Europe/Berlin] [2024-09-21 23:18:37] Session variables set. Attempting to redirect...
+[21-Sep-2024 23:18:37 Europe/Berlin] [2024-09-21 23:18:37] Redirecting admin to ./dashboard.php

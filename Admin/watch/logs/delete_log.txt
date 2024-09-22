@@ -1,0 +1,224 @@
+2024-09-16 21:00:48 - Request received
+POST data: Array
+(
+)
+
+GET data: Array
+(
+    [action] => delete
+)
+
+Raw input: {"id":"1"}
+Decoded input data: Array
+(
+    [id] => 1
+)
+
+2024-09-16 21:01:06 - Request received
+POST data: Array
+(
+)
+
+GET data: Array
+(
+    [action] => delete
+)
+
+Raw input: {"id":"1"}
+Decoded input data: Array
+(
+    [id] => 1
+)
+
+2024-09-16 21:02:14 - Request received
+POST data: Array
+(
+)
+
+GET data: Array
+(
+    [action] => delete
+)
+
+Raw input: {"id":"1"}
+Decoded input data: Array
+(
+    [id] => 1
+)
+
+2024-09-16 21:04:36 - Request received
+POST data: Array
+(
+)
+
+GET data: Array
+(
+    [action] => delete
+)
+
+Raw input: {"id":"1"}
+Decoded input data: Array
+(
+    [id] => 1
+)
+
+2024-09-17 01:55:12 - Request received
+POST data: Array
+(
+)
+
+GET data: Array
+(
+    [action] => delete
+)
+
+Raw input: {"id":"1"}
+Decoded input data: Array
+(
+    [id] => 1
+)
+
+2024-09-17 01:55:22 - Request received
+POST data: Array
+(
+    [id] => 6
+    [name] => Colour
+    [status] => Active
+)
+
+GET data: Array
+(
+    [action] => edit
+)
+
+Raw input: id=6&name=Colour&status=Active
+Response sent
+
+2024-09-17 01:55:24 - Request received
+POST data: Array
+(
+    [id] => 6
+    [name] => Colour
+    [status] => Active
+)
+
+GET data: Array
+(
+    [action] => edit
+)
+
+Raw input: id=6&name=Colour&status=Active
+Response sent
+
+2024-09-17 02:36:00 - Request received
+POST data: Array
+(
+    [id] => 2
+    [name] => Size
+    [status] => Inactive
+)
+
+GET data: Array
+(
+    [action] => edit
+)
+
+Raw input: id=2&name=Size&status=Inactive
+Response sent
+
+2024-09-17 02:36:02 - Request received
+POST data: Array
+(
+    [id] => 2
+    [name] => Size
+    [status] => Inactive
+)
+
+GET data: Array
+(
+    [action] => edit
+)
+
+Raw input: id=2&name=Size&status=Inactive
+Response sent
+
+2024-09-17 02:36:02 - Request received
+POST data: Array
+(
+    [id] => 2
+    [name] => Size
+    [status] => Inactive
+)
+
+GET data: Array
+(
+    [action] => edit
+)
+
+Raw input: id=2&name=Size&status=Inactive
+Response sent
+
+2024-09-17 02:40:22 - Request received
+POST data: Array
+(
+    [id] => 2
+    [name] => Size
+    [status] => Active
+)
+
+GET data: Array
+(
+    [action] => edit
+)
+
+Raw input: id=2&name=Size&status=Active
+Response sent
+
+2024-09-17 02:40:23 - Request received
+POST data: Array
+(
+    [id] => 2
+    [name] => Size
+    [status] => Active
+)
+
+GET data: Array
+(
+    [action] => edit
+)
+
+Raw input: id=2&name=Size&status=Active
+Response sent
+
+2024-09-17 02:40:23 - Request received
+POST data: Array
+(
+    [id] => 2
+    [name] => Size
+    [status] => Active
+)
+
+GET data: Array
+(
+    [action] => edit
+)
+
+Raw input: id=2&name=Size&status=Active
+Response sent
+
+2024-09-17 02:40:24 - Request received
+POST data: Array
+(
+    [id] => 2
+    [name] => Size
+    [status] => Active
+)
+
+GET data: Array
+(
+    [action] => edit
+)
+
+Raw input: id=2&name=Size&status=Active
+Response sent
+
